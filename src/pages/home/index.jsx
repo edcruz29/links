@@ -1,9 +1,11 @@
 import { FiLink } from "react-icons/fi";
+import Menu from "../../components/menu";
 import "./home.css";
 
 export default function Home() {
   return (
     <div className="container-home">
+      <Menu />
       <div className="logo">
         <img src="/logo.png" alt="logo" />
         <h1>EduardoLink's</h1>
@@ -12,12 +14,10 @@ export default function Home() {
 
       <div className="area-input">
         <div>
-        <FiLink size={24} color="#fff"></FiLink>
-        <input type="text" placeholder="cole seu link aqui..." />
-        
+          <FiLink size={24} color="#fff"></FiLink>
+          <input type="text" placeholder="cole seu link aqui..." />
         </div>
         <button>Gerar Link</button>
-        
       </div>
     </div>
   );
