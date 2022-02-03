@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 * {
+=======
+*{
+>>>>>>> 86e135e5d5c750fefd20706a6ae99e6dd97c5337
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 body {
   font-family: sans-serif;
   background-color: #132742;
@@ -11,6 +16,21 @@ button {
   cursor: pointer;
 }
 .app {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+=======
+body{
+  font-family: sans-serif;
+  background-color: #132742;
+>>>>>>> 86e135e5d5c750fefd20706a6ae99e6dd97c5337
+}
+button{
+  cursor: pointer;
+}
+.app{
   display: flex;
   width: 100%;
   justify-content: center;
