@@ -12,7 +12,11 @@ export default function Menu() {
       >
         <BsLinkedin size={28} color="#fff" />
       </a>
-      <a className="social" href="https://www.instagram.com/" target="blank">
+      <a
+        className="social"
+        href="https://www.instagram.com/edubehemoth/"
+        target="blank"
+      >
         <BsInstagram size={28} color="#fff" />
       </a>
       <Link to="/links" className="menu-item">
