@@ -4,6 +4,7 @@ import "./linkItem.css";
 export default function LinkItem({ closeModal, content }) {
   async function copyLink() {
     await navigator.clipboard.writeText(content.link);
+
     alert("URL copiada com Sucesso");
   }
 

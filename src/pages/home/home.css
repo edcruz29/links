@@ -80,6 +80,9 @@
 /* Responsividade */
 
 @media (max-width: 615px) {
+  .container-home {
+    width: 80%;
+  }
   .logo img {
     width: 95px;
   }
@@ -90,6 +93,6 @@
     font-size: 16px;
   }
   .area-input {
-    width: 85%;
+    width: 80%;
   }
 }

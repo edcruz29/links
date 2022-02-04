@@ -4,6 +4,7 @@ import Menu from "../../components/Menu";
 import LinkItem from "../../components/LinkItem";
 import "./home.css";
 import api from "../../services/api";
+import { getLinksStorage, saveLinks } from "../../services/storeLinks";
 
 export default function Home() {
   const [link, setLink] = useState("");
@@ -17,6 +18,7 @@ export default function Home() {
       });
       setData(response.data);
       setShowModal(true);
+      saveLinks("@encurtarLink", response.data);
       setLink("");
     } catch (error) {
       alert("Ops! parece que algo deu errado!");
