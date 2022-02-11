@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Links from "./pages/Links";
-import Error from "./pages/Error";
+import Home from "./pages/home";
+import Links from "./pages/links";
+import Error from "./pages/error";
 
 function RoutesApp() {
   return (

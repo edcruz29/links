@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { getLinksStorage, deleteLink } from "../../services/storeLinks";
 import { useState, useEffect } from "react";
 import LinkItem from "../../components/LinkItem";
+import React, { Component } from "react";
 
 export default function Links() {
   const [myLinks, setMyLinks] = useState([]);

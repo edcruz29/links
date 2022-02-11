@@ -1,5 +1,6 @@
 import { FiX, FiClipboard } from "react-icons/fi";
 import "./linkItem.css";
+import React, { Component } from "react";
 
 export default function LinkItem({ closeModal, content }) {
   async function copyLink() {

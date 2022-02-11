@@ -5,6 +5,7 @@ import LinkItem from "../../components/LinkItem";
 import "./home.css";
 import api from "../../services/api";
 import { saveLinks } from "../../services/storeLinks";
+import React, { Component } from "react";
 
 export default function Home() {
   const [link, setLink] = useState("");
