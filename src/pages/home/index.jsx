@@ -29,7 +29,7 @@ export default function Home() {
     <div className="container-home">
       <div className="logo">
         <img src="/logo.png" alt="logo" />
-        <h1>EduardoLink's</h1>
+        <h1>Encurtador de Links</h1>
         <span>Cole seu link para encurtar 👇</span>
       </div>
 
